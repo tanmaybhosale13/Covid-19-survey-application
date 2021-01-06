@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorAccent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:autofillHints="no"
+                android:hint="@string/enter_here"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textViewPhoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/your_PhoneNo"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/editTextPhoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:autofillHints="no"
+                android:hint="@string/enter_here"
+                android:inputType="number"
+                tools:ignore="TextFields" />
+
+            <TextView
+                android:id="@+id/textViewSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/subject"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/editTextSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:autofillHints="no"
+                android:hint="@string/enter_here"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/message"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/editTextMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:autofillHints="no"
+                android:hint="@string/enter_here"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/buttonSendContact_US"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/send"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

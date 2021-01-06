@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="@string/Maharashtra"
+        android:id="@+id/Maharashtra_hl"
+        />
+    <item android:title="@string/Delhi"
+        android:id="@+id/Delhi_hl"
+        />
+    <item android:title="@string/Rajasthan"
+        android:id="@+id/Rajasthan_hl"
+
+        />
+    <item android:title="@string/Kerala"
+        android:id="@+id/Kerala_hl"
+
+        />
+    <item android:title="@string/Karnataka"
+        android:id="@+id/Karnataka_hl"
+
+        />
+
+    <item android:title="@string/Arunachal_Pradesh"
+        android:id="@+id/Arunachal_Pradesh_hl"
+
+        />
+    <item android:title="@string/Andhra_Pradesh"
+        android:id="@+id/Andhra_Pradesh_hl"
+        />
+    <item android:title="@string/tamilnadu"
+        android:id="@+id/Tamilnadu_hl"
+        />
+    <item android:title="@string/Uttar_Pradesh"
+        android:id="@+id/UttarPradesh_hl"
+        />
+    <item android:title="@string/West_Bengal"
+        android:id="@+id/WestBengal_hl"
+        />
+    <item android:title="@string/Close"
+        android:id="@+id/Close_Menu"
+        />
+
+
+</menu>

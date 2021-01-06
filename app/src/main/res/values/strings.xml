@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Covid-19 App</string>
+    <string name="todo">TODO</string>
+    <string name="tV_Survey">This is a Covid-19 Survey</string>
+    <string name="enter_for_the_survey">Click here  for the Survey</string>
+    <string name="covid_19_helpline_numbers">Covid-19 Helpline Numbers</string>
+    <string name="Maharashtra">Maharashtra</string>
+    <string name="Delhi">Delhi</string>
+    <string name="Rajasthan">Rajasthan</string>
+    <string name="Kerala">Kerala</string>
+    <string name="Karnataka">Karnataka</string>
+    <string name="Arunachal_Pradesh">Arunachal Pradesh</string>
+    <string name="Andhra_Pradesh">Andhra Pradesh </string>
+    <string name="Close">Close</string>
+    <string name="covid_information">
+        \nCoronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+        \nMost people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.
+        \nOlder people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
+        \nThe best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads.
+        \nProtect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face.
+        \nThe COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).
+        \nsome symptoms of covid-19 are as follows:
+        \nThe most common symptoms of COVID-19 are fever, dry cough, and tiredness.
+        \nLess common symptoms include aches and pains, headache, sore throat, diarrhoea, red or irritated eyes, loss of taste or smell, and a rash on skin or discolouration of fingers or toes.
+        \nSerious symptoms that require immediate medical attention include shortness of breath or difficulty breathing, chest pain or pressure, and loss of speech or movement.
+        \nIf you develop any of these symptoms, seek medical care immediately.
+        \nSymptoms are usually mild and begin gradually. Some people can be infected but only have very mild symptoms.
+        \nMost people (about 80%) recover from the disease without needing hospital treatment. Around 1 out of every 5 people who gets COVID-19 becomes seriously ill and develops difficulty breathing.
+        \nOlder people, and those with underlying medical problems like high blood pressure, heart and lung problems, diabetes, or cancer , are at higher risk of developing serious illness. However anyone can catch COVID-19 and become seriously ill. Even people with very mild symptoms of COVID-19 can transmit the virus.
+    </string>
+    <string name="tamilnadu">Tamil nadu</string>
+    <string name="Uttar_Pradesh">Uttar Pradesh</string>
+    <string name="West_Bengal">"West Bengal "</string>
+    <string name="share_with_friend">share with friend</string>
+    <string name="contact_us">Contact us</string>
+    <string name="WebsiteOpen">Covid-19 live updates</string>
+    <string name="exit">Exit</string>
+    <string name="name">Name</string>
+    <string name="enter_here">Enter Here</string>
+    <string name="your_PhoneNo">Your Phone Number</string>
+    <string name="subject">Subject</string>
+    <string name="message">Query (Required)</string>
+    <string name="send">Send</string>
+    <string name="survey_of_covid_19_pandamic">Survey of covid-19 Pandemic</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Question_1">Are you taking precautions to prevent covid-19 pandemic ?</string>
+    <string name="Question_2">Are you wearing mask when you are present in the crowd?</string>
+    <string name="Question_3">Is covid-19 changed the Aqi level less due to lockdown?</string>
+    <string name="Question_4">Is covid-19 teaches the whole world the importance of cleanliness and health life?</string>
+    <string name="Question_5">Are you doing any physical exercise during lockdown?</string>
+    <string name="Question_6">Do you think , Covid-19 is not Spread by china ?</string>
+    <string name="reset">Reset</string>
+    <string name="Check_Survay">Check Survey</string>
+    <string name="send_data">Send Survey Data</string>
+
+
+</resources>

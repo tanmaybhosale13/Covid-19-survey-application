@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+   >
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/name"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:autofillHints="no"
+        android:hint="@string/enter_here"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextName"
+        android:text="@string/your_PhoneNo"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewPhoneNo"
+
+        android:hint="@string/enter_here"
+        android:inputType="number"
+        tools:ignore="TextFields"
+        android:autofillHints="no" />
+
+    <TextView
+        android:id="@+id/textViewSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPhoneNo"
+        android:text="@string/subject"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSubject"
+        android:hint="@string/enter_here"
+        android:inputType="textPersonName"
+        android:autofillHints="no" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextSubject"
+        android:text="@string/message"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewMessage"
+        android:hint="@string/enter_here"
+        android:inputType="text"
+        android:maxLines="7"
+        android:autofillHints="no" />
+
+    <Button
+        android:id="@+id/buttonSendContact_US"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextMessage"
+        android:layout_centerInParent="true"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:text="@string/send"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+</RelativeLayout>
